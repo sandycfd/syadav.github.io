@@ -60,6 +60,15 @@
       color: #004d80;
       text-decoration: none;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
@@ -75,6 +84,7 @@
   <a href="#education">Education</a>
   <a href="#skills">Skills</a>
   <a href="#publications">Publications</a>
+  <a href="#gallery">Gallery</a>
   <a href="#contact">Contact</a>
 </nav>
 
@@ -128,10 +138,19 @@
 <section id="publications">
   <h2>Selected Publications</h2>
   <ul>
-    <li>S. Yadav et al., "Effect of Rotor Spacing on Performance of Twin-Rotor VAWT," Renewable Energy, 2023.</li>
-    <li>S. Yadav et al., "Comparison of CFD Mesh Techniques for VAWTs," 11th International Conference on Applied Energy, Sweden, 2019.</li>
-    <li>S. Yadav et al., "CFD Simulation of Counter-Rotating VAWTs," SEEC-2019, Nagpur, India.</li>
+    <li>S. Yadav et al., \"Effect of Rotor Spacing on Performance of Twin-Rotor VAWT,\" Renewable Energy, 2023.</li>
+    <li>S. Yadav et al., \"Comparison of CFD Mesh Techniques for VAWTs,\" 11th International Conference on Applied Energy, Sweden, 2019.</li>
+    <li>S. Yadav et al., \"CFD Simulation of Counter-Rotating VAWTs,\" SEEC-2019, Nagpur, India.</li>
   </ul>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="image1.jpg" alt="CFD Simulation">
+    <img src="image2.jpg" alt="Wind Tunnel Testing">
+    <img src="image3.jpg" alt="Fluid Dynamics Visualization">
+  </div>
 </section>
 
 <section id="contact">
